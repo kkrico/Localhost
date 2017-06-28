@@ -4,7 +4,7 @@ module.exports = function (grunt) {
 
         watch: {
             cssmin: {
-                files: 'styles/styles.css',
+                files: 'styles/*.css',
                 options: {
                     livereload: 35729
                 }

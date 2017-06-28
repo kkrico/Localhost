@@ -1,0 +1,15 @@
+@import "heading.css";
+@import "paragrah.css";
+
+* {
+    font-family: "Arial Black" Gadget;
+}
+
+
+div * {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.sitelink {
+    font-family: "Georgia", serif;
+}
