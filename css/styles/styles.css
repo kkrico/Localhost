@@ -13,3 +13,44 @@ div * {
 .sitelink {
     font-family: "Georgia", serif;
 }
+
+#tonyquote {
+    font-family: "Lucida Sans Unicode", "Lucida Grande";
+    color: black;
+}
+
+p.sitelink {
+    font-family: "Palatino Linotype", "Book Antiqua";
+}
+
+span#tonyname {
+    font-family: "Times New Roman";
+}
+
+#tutorials ol li {
+    color: purple;
+}
+
+#tutorials ul li {
+    color: green;
+}
+
+h3 + p {
+    font-style: italic;
+}
+
+h3 + p > a {
+    color: red;
+}
+
+p[class] {
+    background-color: grey;
+}
+
+p[id] {
+    background-color: yellow;
+}
+
+*[alt~="nintendo"]{
+    background: orange;
+}

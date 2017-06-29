@@ -1,0 +1,23 @@
+.menu-bar ul ul {
+    display: none;
+}
+
+.menu-bar ul li:hover ul {
+    display: block;
+}
+
+.quadrado {
+    width: 100%;
+    height: 300px;
+
+    background-color: blue;
+    text-align: center;
+}
+
+.quadrado:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    color: white;
+    background-color: green;
+}

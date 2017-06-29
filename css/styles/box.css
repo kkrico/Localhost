@@ -1,0 +1,8 @@
+#lorem {
+    padding: 20px;
+    margin: 10px;
+    border-top: 5px solid #00308f;
+    border-bottom: 5px dotted #00308f;
+    border-right: 5px double #00308f;
+    border-left: 5px double #00308f;
+}
