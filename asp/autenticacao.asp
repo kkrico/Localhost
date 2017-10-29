@@ -1,9 +1,11 @@
 ﻿<%
-    
-    usuario = Request.Form("Usuario")
-    senha = Request.Form("Senha")
+	
+		Dim oSOAP
+	Set oSOAP = Server.CreateObject("MSSOAP.SOAPClient30")
+
+	usuario = Request.Form("Usuario")
+	senha = Request.Form("Senha")
 
 
-    Response.Redirect("
-    
+	stop
 %>
